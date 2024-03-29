@@ -29,10 +29,10 @@ import "./interfaces/vendor/IAccountManager.sol";
  *
  * The following fields are guarenteed to have a non-zero entry for users who
  * successfully completed thier identity check:
- *  - primaryID;
- *  - countryCode;
- *  - proofOfLiveliness;  and
- *  - userType.
+ *  - primaryID;bool
+ *  - countryCode;string
+ *  - proofOfLiveliness;bool and
+ *  - userType.uint256
  *
  * There are explict getters for all five (5) of the currently supported
  * attributes.
